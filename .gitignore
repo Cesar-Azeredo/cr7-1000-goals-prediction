@@ -1,0 +1,35 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---- Virtual Environment ----
+.venv/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- VS Code ----
+.vscode/
+
+# ---- Data folders ----
+01_data/raw/*
+01_data/processed/*
+!01_data/raw/.gitkeep
+!01_data/processed/.gitkeep
+
+# ---- Model files ----
+04_models/*
+
+# ---- Reports (ignore figures only) ----
+05_reports/figures/*
+
+# ---- System files ----
+.DS_Store
+Thumbs.db
+
+# ---- Environment variables ----
+*.env
+.env
